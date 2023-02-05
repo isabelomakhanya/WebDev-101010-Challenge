@@ -76,7 +76,7 @@ main .illustration {
     border: none;
     text-transform: capitalize;
     padding: .8em 9em;
-    border-radius: .5em;
+    border-radius: .4em;
     font-weight: bold;
     box-shadow: .2em .2em 0 hsla(238, 22%, 44%, .2)
 }
@@ -125,4 +125,120 @@ main .illustration {
     margin: 1em;
     border-radius: .5em;
     box-shadow: 0 0 .5em var(--clr-primary-desaturete-blue);
+    padding: 2em;
+}
+
+.card .quote {
+    padding-bottom: 1em;
+}   
+
+.card p {
+    font-size: .8em;
+    padding-bottom: 2em;
+}
+
+.card .avatar {
+    display: flex;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.card .other {
+    padding: .5em 0 0 1em;
+}
+
+.card .other h5 {
+    font-size: 1.2em;
+    font-weight: bolder;  
+}
+
+.access {
+    margin-top: 5em;
+    background-color: var(--clr-primary-desaturete-blue);
+    text-align: center;
+    padding: 1rem;
+    font-size: .6em;
+}
+
+.access h1 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+    font-weight: bolder;
+}
+
+.access p {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.access .btn {
+    font-size: 1em;
+}
+
+.access input {
+    width: 76%;
+}
+
+footer {
+    background-color: var(--clr-primary-dark-blue);
+    padding: 1rem;
+}
+
+footer .logo {
+    padding: 3rem 1rem;
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+footer .contact img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+footer .contact span {
+    color: #fff;
+    position: absolute;
+}
+
+.phone {
+    left: 4em;
+}
+
+.email {
+    left: 4em;
+    top: 130.4rem;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.sub a {
+    color: #fff;
+    padding: 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 60px;
+    height: 60px;
+    padding: .6em;
 }
